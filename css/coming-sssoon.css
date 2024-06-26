@@ -732,11 +732,11 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     position: relative;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
-    margin-top: 150px;
+    margin-top: 27vh;
     z-index: 3;
 }
 .main .logo.cursive{
-    font-family: 'Grand Hotel',cursive;
+    font-family: 'Carmen Sans ExtraBold', cursive;
     font-size: 82px;
     
 }
@@ -792,7 +792,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     width: 100%;
     color: #AAAAAA;
     z-index: 4;
-    text-align: right;
+    text-align: center;
     margin-top: 50px;
 }
 .footer a{
@@ -934,3 +934,23 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     }
 
 }
+
+.footer-side-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.footer-middle-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100px;
+}
+  
+  .footer-middle-column .text-content {
+    text-align: center;
+}
+  .footer-middle-column .text-content p {
+    font-size:12px !important;
+}  
