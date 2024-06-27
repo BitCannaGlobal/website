@@ -736,7 +736,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 3;
 }
 .main .logo.cursive{
-    font-family: 'Carmen Sans ExtraBold', cursive;
+    font-family: 'Roboto Black', cursive;
     font-size: 82px;
     
 }
@@ -937,7 +937,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .footer .row {
     display: flex;
     align-items: center;
-    height: 100%;
 }
   
 .footer .col-md-6 {
