@@ -934,3 +934,13 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     }
 
 }
+.footer .row {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+  
+.footer .col-md-6 {
+    display: flex;
+    justify-content: center;
+}
