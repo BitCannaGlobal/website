@@ -727,12 +727,12 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .main .logo{
     color: #FFFFFF;
-    font-size: 56px;
-    font-weight: 300;
+    font-size: 60px;
+    font-weight: 700;
     position: relative;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
-    margin-top: 27vh;
+    margin-top: 22vh;
     z-index: 3;
 }
 .main .logo.cursive{
