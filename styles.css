@@ -84,6 +84,16 @@ h4, h5 ,h6 {
   background: radial-gradient(circle at 90% -50%, #146a42, #212529)
 }
 
+/*** Fallback for video background ***/
+
+.fallback-bg {
+  background-image: url('/assets/video/smoking-buddhead.png')
+}
+
+.fallback-bg-mobile {
+  background-image: url('/assets/video/smoking-buddhead-mobile.png')
+}
+
 /*** Divider & borders ***/
 
 .bg-divider {
